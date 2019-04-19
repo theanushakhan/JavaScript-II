@@ -2,6 +2,44 @@
 // Write a simple closure of your own creation.  Keep it simple!
 
 
+
+function petersons() {
+  console.log('Petersons IceCream Is The Best');
+
+  function icecream() {
+      console.log("All Ice Cream Is Very Good");
+
+      function manufacturer() {
+        console.log('No matter where it comes from, it is a delicacy');
+      }//manufacturer
+      manufacturer();
+  }//icecream
+  icecream();
+}//petersons
+petersons();
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 /* STRETCH PROBLEMS, Do not attempt until you have completed all previous tasks for today's project files */
 
 
